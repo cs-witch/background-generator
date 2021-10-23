@@ -24,3 +24,15 @@ h3 {
 	text-transform: none;
 	letter-spacing: 0.01em;
 }
+
+button {
+	font: 900 1em 'Roboto Mono', monospace, bolder;
+	display: inline;
+	position: relative;
+}
+
+.random {
+	text-align: center;
+	margin-top: 2em;
+}
+
