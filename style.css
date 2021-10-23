@@ -29,10 +29,10 @@ button {
 	font: 900 1em 'Roboto Mono', monospace, bolder;
 	display: inline;
 	position: relative;
-	margin-top: 2em;
 }
 
 .random {
 	text-align: center;
+	margin-top: 2em;
 }
 

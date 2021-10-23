@@ -21,6 +21,12 @@ const setRandomGradient = () => {
 	header.textContent = body.style.background + ";"
 }
 
+const copy = () => {
+	const cb = navigator.clipboard
+	cb.writeText(header.innerText).then(() => alert("Copied!"))
+}
+
+document.querySelector("#copy").addEventListener("click", copy)
 button.addEventListener("click", setRandomGradient)
 color1.addEventListener("input", setGradient)
 color2.addEventListener("input", setGradient)
